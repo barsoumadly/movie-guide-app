@@ -24,7 +24,7 @@ const printInvaildMessage = function (message) {
 const getMovie = async function (movieName) {
   try {
     const response = await fetch(
-      `http://www.omdbapi.com/?t=${movieName}
+      `https://www.omdbapi.com/?t=${movieName}
     &apikey=ac560ee`
     );
 
